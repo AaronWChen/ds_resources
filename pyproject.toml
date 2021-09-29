@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ds_resources"
+version = "0.1.0"
+description = "Poetry environment for data science resources. Shouldn't need much (if anything) but doing this to keep in practice"
+authors = ["Aaron Chen <aaron.chen@cms.hhs.gov>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
